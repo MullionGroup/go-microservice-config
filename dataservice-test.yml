@@ -2,5 +2,5 @@ server_port: 7070
 server_name: Dataservice TEST
 amqp_server_url: amqp://guest:guest@rabbitmq:5672/
 config_event_bus: springCloudBus
-cockroachdb_conn_url: postgresql://simulation_user:simulation_password@cockroachdb1:26257/simulation?sslmode=disable
+cockroachdb_conn_url: postgresql://flintpro_services_user:flintpro_services_password@cockroachdb1:26257/flintpro_services?sslmode=disable
 zipkin_server_url: http://zipkin:9411
