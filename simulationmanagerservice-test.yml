@@ -2,5 +2,5 @@ server_port: 7070
 server_name: Simulationmanagerservice TEST
 amqp_server_url: amqp://admin:mypass@rabbitmq:5672/
 config_event_bus: springCloudBus
-cockroachdb_conn_url: postgresql://flintpro_services_user:flintpro_services_password@cockroachdb1:26257/flintpro_services?sslmode=disable
+cockroachdb_conn_url: postgresql://flintpro_services_user:flintpro_services_password@cockroachdb-public:26257/flintpro_services?sslmode=disable
 zipkin_server_url: http://zipkin:9411
